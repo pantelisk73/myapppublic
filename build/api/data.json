@@ -1,0 +1,157 @@
+{
+    "projectStatuses": [
+        {
+            "id": 1,
+            "name": "New"
+        },
+        {
+            "id": 2,
+            "name": "Proposed"
+        },
+        {
+            "id": 3,
+            "name": "Accepted"
+        },
+        {
+            "id": 4,
+            "name": "In Progress"
+        },
+        {
+            "id": 5,
+            "name": "Completed"
+        },
+        {
+            "id": 6,
+            "name": "Expired"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "type": "Bathroom Remodel",
+            "status": 4,
+            "address": "123 Main Street, Gaithersburg, MD 20878",
+            "percentComplete": 0.14,
+            "startDate": "2000-10-21T00:00:00.000Z",
+            "hasUsers": true,
+            "hasPhotos": true,
+            "tasks": [
+                {
+                    "id": 1,
+                    "description": "Demolition",
+                    "status": "complete"
+                },
+                {
+                    "id": 2,
+                    "description": "Prep floor for new tile",
+                    "status": "complete"
+                },
+                {
+                    "id": 3,
+                    "description": "Prep wall for tile",
+                    "status": "active"
+                },
+                {
+                    "id": 4,
+                    "description": "Install floor tile",
+                    "status": "active"
+                },
+                {
+                    "id": 5,
+                    "description": "Install wall tile",
+                    "status": "not_started"
+                },
+                {
+                    "id": 6,
+                    "description": "Install vanity",
+                    "status": "not_started"
+                },
+                {
+                    "id": 7,
+                    "description": "Install fixtures",
+                    "status": "not_started"
+                },
+                {
+                    "id": 11,
+                    "description": "Demolition",
+                    "status": "complete"
+                },
+                {
+                    "id": 12,
+                    "description": "Prep floor for new tile",
+                    "status": "complete"
+                },
+                {
+                    "id": 13,
+                    "description": "Prep wall for tile",
+                    "status": "active"
+                },
+                {
+                    "id": 14,
+                    "description": "Install floor tile",
+                    "status": "active"
+                },
+                {
+                    "id": 15,
+                    "description": "Install wall tile",
+                    "status": "not_started"
+                },
+                {
+                    "id": 16,
+                    "description": "Install vanity",
+                    "status": "not_started"
+                },
+                {
+                    "id": 17,
+                    "description": "Install fixtures",
+                    "status": "not_started"
+                },
+                {
+                    "id": 21,
+                    "description": "Demolition",
+                    "status": "complete"
+                },
+                {
+                    "id": 22,
+                    "description": "Prep floor for new tile",
+                    "status": "complete"
+                },
+                {
+                    "id": 23,
+                    "description": "Prep wall for tile",
+                    "status": "active"
+                },
+                {
+                    "id": 24,
+                    "description": "Install floor tile",
+                    "status": "active"
+                },
+                {
+                    "id": 25,
+                    "description": "Install wall tile",
+                    "status": "not_started"
+                },
+                {
+                    "id": 26,
+                    "description": "Install vanity",
+                    "status": "not_started"
+                },
+                {
+                    "id": 27,
+                    "description": "Install fixtures",
+                    "status": "not_started"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "status": 4,
+            "type": "Living Room Repaint",
+            "address": "123 Main Street, Gaithersburg, MD 20878",
+            "percentComplete": 0.54,
+            "hasUsers": false,
+            "hasPhotos": false,
+            "startDate": "2000-10-21T00:00:00.000Z"
+        }
+    ]
+}
